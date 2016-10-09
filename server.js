@@ -18,7 +18,7 @@ var articleone = {
      </p>
       <p>
          this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.
-        </p>
+        </p>`
     
     
  };
@@ -33,7 +33,7 @@ var content = data.content;
 var htmltemplate = `
 <html>
 <head> 
-<title>
+<title> 
 ${title}
 </title> 
  <meta name="viewport" content= "width=device-width,initial-scale=1"/>
@@ -41,27 +41,24 @@ ${title}
   </head>   
       <body>
         <div class="container">
-         
-      
            <div>
             <a href='/'>/a>home</a>
              </div>
             <hr/>
             <h3>
-            ${heading}
+                ${heading}
            </h3>
             <div>
-            ${date}
+               ${date}
           </div>
             <div>
-          ${content}
+               ${content}
           </div>
        </div>
    </body>  
 </html>
-
 `;
-return htmltemplate;
+  return htmltemplate;
 }
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
