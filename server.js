@@ -6,11 +6,11 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var artileone = {
-title:'article one akhil',
-heading:'article one',
-date:'oct 3, 2016',
-content:`<p>
+var articleone = 
+    title:'article one akhil',
+ heading:'article one',
+ date:'oct 3, 2016',
+  content:`<p>
          this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.
      </p>
       <p>
@@ -18,12 +18,12 @@ content:`<p>
      </p>
       <p>
          this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.this is my content for my first article.
-        </p>'
+        </p>
     
     
 };
 
-function createtemplate (data) {
+function createtemplate (data){
 var title = data.title',
 var date = data.date',
 var heading = data.heading',
