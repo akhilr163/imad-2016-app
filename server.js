@@ -22,10 +22,10 @@ app.get('/article-three',function (req, res) {
 });
 
 app.get('/ui/style.css',function (req,res) {
-   res.sendfile(path.join(_dirname,'ui', 'style.css'));
+   res.sendfile(path.join(_dirname, 'ui', 'style.css'));
 });
 app.get('/ui/main.js',function (req,res) {
-   res.sendfile(path.join(_dirname,'ui', 'main.js'));
+   res.sendfile(path.join(_dirname, 'ui', 'main.js'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
