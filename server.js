@@ -56,9 +56,9 @@ ${title}
           </div>
        </div>
    </body>  
-</html>
+</html>  
 `;
-  return htmltemplate;
+  return htmltemplate;  
 }
 
 
