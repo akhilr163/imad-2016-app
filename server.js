@@ -44,9 +44,9 @@ ${title}
 
   </head>   
       <body>
-        <div class=="container">
+        <div class="container">
            <div>
-            <a href=='/'>/a>home</a>
+            <a href='/'>/a>home</a>
              </div>
             <hr/>
             <h3>
@@ -73,7 +73,7 @@ app.get('/', function (req, res) {
 app.get('/:articlename',function (req, res) { 
     // articlename == article-one
     // articles[articleanme] == {content objects for article one
-    var articlename =req.params.articlename;
+    var articlename =req.params.articlename ;
    res.send(createtemplate(articles[articleone]));
 });
 
