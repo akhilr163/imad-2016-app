@@ -46,7 +46,7 @@ ${title}
       <body>
         <div class=="container">
            <div>
-            <a href='/'>/a>home</a>
+            <a href=='/'>/a>home</a>
              </div>
             <hr/>
             <h3>
