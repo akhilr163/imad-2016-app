@@ -44,7 +44,7 @@ ${title}
 
   </head>   
       <body>
-        <div class="container">
+        <div class= "container">
            <div>
             <a href='/'>/a>home</a>
              </div>
